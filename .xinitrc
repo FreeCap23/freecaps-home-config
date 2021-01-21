@@ -1,4 +1,4 @@
 wal -R
 numlockx &
-dwmblocks
+dwmblocks &
 exec dwm

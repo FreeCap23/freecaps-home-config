@@ -17,8 +17,14 @@ alias ping='ping -c 5'
 alias dmesg='dmesg -HL'
 alias cl='clear'
 alias inst='sudo pacman -S'
+alias noefetch='neofetch'
+alias cdp='cd ~/Pictures'
+alias cdd='cd ~/Downloads'
+alias cd..='cd ..'
+alias sbash='source ~/.bashrc'
+
 
 cat ~/.cache/wal/sequences &
 PS1="\[$(tput setaf 5)\][\u]\[$(tput bold)\] \w \[$(tput sgr0)\]\[$(tput setaf 5)\]==> \[$(tput sgr0)\]" 
 
-export EDITOR=nano
+export EDITOR="vim"
